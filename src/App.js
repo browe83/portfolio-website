@@ -10,6 +10,8 @@ import NavBar from './components/NavBar';
 import NotFound from './components/NotFound';
 import Work from './components/Work';
 import About from './components/About';
+// import logo from './logo.svg';
+import './App.css';
 
 function App () {
   return (
@@ -26,8 +28,6 @@ function App () {
     </Router>
   );
 }
-// import logo from './logo.svg';
-// import './App.css';
 
 // function App() {
 //   return (

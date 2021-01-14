@@ -1,7 +1,14 @@
 import React from 'react';
 
 function Home (props) {
-  return <h1>Home</h1>
+  return (
+    <>
+      <div id='home'>
+        <h1>home</h1>
+      </div>    
+      <div className='overlay'></div>
+    </>
+  )
 }
 
 export default Home;

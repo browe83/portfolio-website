@@ -1,7 +1,15 @@
 import React from 'react';
 
+
 function About (props) {
-  return <h1>About</h1>
+  return (
+    <>
+      <div id='about'>
+        <h1>about</h1>
+      </div>    
+      <div className='overlay'></div>
+    </>
+  )
 }
 
 export default About;
