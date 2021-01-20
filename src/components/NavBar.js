@@ -8,10 +8,10 @@ function NavBar(props) {
   return (
     <div id='navContainer'>
       <div id='navbar'>
-        {pathname !== '/' && <Link to='/' className='link' >Home</Link>}
-        {pathname !== '/about' && <Link to='/about' className='link' >About</Link>}
-        {pathname !== '/work' && <Link to='/work' className='link' >Work</Link>}
-        {pathname !== '/contact' && <Link to='/contact' className='link' >Contact</Link>}
+        {pathname !== '/' && <Link to='/' className='link' >HOME</Link>}
+        {pathname !== '/about' && <Link to='/about' className='link' >ABOUT</Link>}
+        {pathname !== '/work' && <Link to='/work' className='link' >WORK</Link>}
+        {pathname !== '/contact' && <Link to='/contact' className='link' >CONTACT</Link>}
       </div>
     </div>
   )
