@@ -1,0 +1,41 @@
+.project {
+  display: grid;
+  grid-template-rows: auto;
+  align-content: center;
+  max-height: 330px;
+  max-width: 330px;
+  text-align: center;
+}
+
+.project:hover h2 {
+  background-color: rgba(19, 17, 168, 0.73);
+  color: white;
+  border-radius: 20px; 
+  transition: all .3s linear .1s;
+}
+
+.project h2 {
+  margin: 0 auto;
+}
+
+.project img {
+  max-height: 290px;
+  max-width: 290px;
+  border: 2px solid rgba(19, 17, 168, 0.73); 
+  border-radius: 30px;
+} 
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 60%;
+  justify-content: space-around;
+  width: 100%;
+  padding-bottom: 3%;
+}
+
+.projects a {
+  text-decoration: none;
+  color: black;
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 // import { projects } from '../../src/data.json';
 import { projects } from '../data';
-
+import '../css/work.css';
 
 function Work (props) {
   return (

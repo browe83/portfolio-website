@@ -10,8 +10,8 @@ import NavBar from './components/NavBar';
 import NotFound from './components/NotFound';
 import Work from './components/Work';
 import About from './components/About';
-// import logo from './logo.svg';
 import './App.css';
+import Project from './components/Project';
 
 function App () {
   return (
@@ -21,6 +21,7 @@ function App () {
           <Route exact path='/' component={Home}></Route>
           <Route exact path='/contact' component={Contact}></Route>
           <Route exact path='/work' component={Work}></Route>
+          <Route exact path='/work/:id' component={Project}></Route>
           <Route exact path='/about' component={About}></Route>
           <Route component={NotFound}></Route>
         </Switch>
