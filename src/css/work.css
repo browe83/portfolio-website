@@ -1,3 +1,26 @@
+.work {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50vh;
+  width: 100%;
+  background-image: 
+    /* linear-gradient(to top, rgba(245, 246, 252, 0.52), rgba(7, 41, 233, 0.73)), */
+    url('../images/mural-camera.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+} 
+
+.work h2 {
+  display: inline-block;
+  width: 40%;
+  background-color: rgba(9, 101, 240, 0.73);
+  border-radius: 5px;
+  padding: 15px;
+  margin-right: 25px;
+}
 .project {
   display: grid;
   grid-template-rows: auto;
@@ -8,7 +31,7 @@
 }
 
 .project:hover h2 {
-  background-color: rgba(19, 17, 168, 0.73);
+  background-color: rgba(9, 101, 240, 0.73);
   color: white;
   border-radius: 20px; 
   transition: all .3s linear .1s;
@@ -21,7 +44,7 @@
 .project img {
   max-height: 290px;
   max-width: 290px;
-  border: 2px solid rgba(19, 17, 168, 0.73); 
+  border: 2px solid rgba(9, 101, 240, 0.73); 
   border-radius: 30px;
 } 
 

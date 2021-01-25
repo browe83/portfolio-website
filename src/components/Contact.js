@@ -6,7 +6,7 @@ function Contact (props) {
       <div id='contact'>
         <h1>contact</h1>
       </div>    
-      <div className='overlay'></div>
+      <div className=''></div>
     </>
   )
 }

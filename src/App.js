@@ -4,13 +4,17 @@ import {
   Switch
 } from 'react-router-dom';
 
+import './App.css';
+import './css/project.css';
+import './css/overlay.css';
+import './css/work.css';
+import './css/home.css';
 import Home from './components/Home';
 import Contact from './components/Contact';
 import NavBar from './components/NavBar';
 import NotFound from './components/NotFound';
 import Work from './components/Work';
 import About from './components/About';
-import './App.css';
 import Project from './components/Project';
 
 function App () {

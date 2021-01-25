@@ -7,7 +7,7 @@ function About (props) {
       <div id='about'>
         <h1>about</h1>
       </div>    
-      <div className='overlay'></div>
+      <div className=''></div>
     </>
   )
 }
