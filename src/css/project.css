@@ -20,7 +20,7 @@
   width: 80%;
   height: 100vh;
   /* border: 2px dotted red; */
-  background-image: linear-gradient(to top, rgba(245, 246, 252, 0.52), rgba(9, 101, 240, 0.73));
+  background-image: linear-gradient(to top, rgba(76, 199, 86, 0.52), rgba(9, 101, 240, 0.73));
   border-right: 5px solid rgba(245, 246, 252, 0.52);
 }
 
@@ -79,100 +79,3 @@ button {
   cursor: pointer;
   color: white;
 }
-
-/* #project {
-  display: grid;
-  grid-template-rows: repeat(2, auto);
-  width: auto;
-  height: 100vh;
-  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(19, 17, 168, 0.73));
-}
-
-#overview {
-  display: grid;
-  grid-template-columns: 60% 40%;
-  height: 30vh;
-  border: 2px solid red;
-  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(19, 17, 168, 0.73));
-  background-image: 
-    linear-gradient(to top, rgba(245, 246, 252, 0.52), rgba(9, 101, 240, 0.73)),
-    url('../images/mural-camera.jpg');
-  background-size: cover;
-  background-position: center;
-  color: white;
-  
-}
-.desc {
-  flex-direction: column;
-  align-items: center;
-  width: 30%;
-
-}
-.desc h1 {
-  background-color: rgba(9, 101, 240, 0.73);
-    border-radius: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-.desc p {
-  font-size: 20px;
-  padding: 15px;
-  background-color: rgba(9, 101, 240, 0.73);
-  border-radius: 5px;
-  margin-left: 15px;
-}
-
-#images-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  border: 2px solid red;
-}
-
-#image-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  max-height: 450px;
-  width: 45%;
-  min-width: 500px; 
-  margin-top: 15px;
-  border: 2px solid red;
-  margin-right: 10px;
-}
-
-#project img {
-  
-  max-height: 100%;
-  max-width: 100%;
-  align-self: center;
-  border: 2px solid rgba(9, 101, 240, 0.73);
-  border-radius: 10px;
-  border: 2px solid red;
-}
-
-.tech {
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  border: 2px solid red;
-}
-
-#anchor-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 120%;
-}
-
-#anchor-container button {
-  margin: 5px;
-  text-align: center;
-  width: 200px;
-  border-radius: 5px;
-  font-size: 20px;
-  background-color: skyblue;
-  cursor: pointer;
-  color: white;
-} */

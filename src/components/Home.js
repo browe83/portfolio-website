@@ -11,7 +11,7 @@ function Home (props) {
        
       </div>
       {/* <div className='overlay'></div>     */}
-      <div id='shade'>
+      <div className='shade'>
         <div  id='welcome'>
           <h1>WELCOME!</h1>
           <p>

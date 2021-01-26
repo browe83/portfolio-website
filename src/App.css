@@ -30,34 +30,18 @@ body {
 
 
 
-
-#about {
+.shade {
   position: absolute;
+  width: 40%;
   height: 100vh;
-  width: 100%;
-  background-image: 
-    linear-gradient(to top, rgba(245, 246, 252, 0.52), rgba(19, 17, 168, 0.73)),
-    url('./images/outlook.jpg');
-  background-size: cover;
-  background-position: center;
+  background-image: linear-gradient(to top, rgba(76, 199, 86, 0.52), rgba(9, 101, 240, 0.73));
+  border-right: 5px solid rgba(245, 246, 252, 0.52);
+  color: white;
 }
-
-#contact {
-  position: absolute;
-  height: 100vh;
-  width: 100%;
-  background-image: 
-    linear-gradient(to top, rgba(245, 246, 252, 0.52), rgba(19, 17, 168, 0.73)),
-    url('./images/bike-desk.jpg');
-  background-size: cover;
-  background-position: center;
-}
-
 
 
 .flex {
   display: flex;
-
 }
 
 

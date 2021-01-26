@@ -9,6 +9,7 @@ import './css/project.css';
 import './css/overlay.css';
 import './css/work.css';
 import './css/home.css';
+import './css/about.css';
 import Home from './components/Home';
 import Contact from './components/Contact';
 import NavBar from './components/NavBar';

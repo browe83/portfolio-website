@@ -10,14 +10,6 @@
   background-repeat: no-repeat;
 }
 
-#shade {
-  position: absolute;
-  width: 40%;
-  height: 100vh;
-  background-image: linear-gradient(to top, rgba(245, 246, 252, 0.52), rgba(9, 101, 240, 0.73));
-  border-right: 5px solid rgba(245, 246, 252, 0.52);
-  color: white;
-}
 
 #welcome {
   display: flex;
