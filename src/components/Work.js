@@ -6,14 +6,20 @@ import { projects } from '../data';
 function Work (props) {
   return (
     <>
+      <h2 id='chile'>
+        Valparaiso, Chile
+      </h2>
       <div className='work'>
-        <h2>Below you'll find a compilation of my projects.  
-          Each was created using vanilla JavaScript, VSCode, and GitHub.
-          At present, the CSS and HTML were outsourced; although, I am currently in the
-          process of refactoring projects using ReactJS and my own CSS and HMTL. </h2>
-        {/* <h3>--by somebody really cool</h3> */}
+        <div className='projects-overview'>
+          <h1>My Projects</h1>
+          <p>
+            Below you'll find a compilation of my projects.  
+            Each was created using vanilla JavaScript, VSCode, and GitHub.
+            At present, the CSS and HTML are outsourced; although, I am currently in the
+            process of refactoring projects using ReactJS and my own CSS and HMTL. 
+          </p>
+        </div>
       </div>
-      {/* <div className='overlay'></div> */}
       <div className='projects'>
         {projects.map((project, index) => (
                 <div className='project' key={index}>

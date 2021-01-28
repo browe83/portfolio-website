@@ -11,7 +11,6 @@ import './css/work.css';
 import './css/home.css';
 import './css/about.css';
 import Home from './components/Home';
-import Contact from './components/Contact';
 import NavBar from './components/NavBar';
 import NotFound from './components/NotFound';
 import Work from './components/Work';
@@ -24,7 +23,6 @@ function App () {
       <NavBar />
         <Switch>
           <Route exact path='/' component={Home}></Route>
-          <Route exact path='/contact' component={Contact}></Route>
           <Route exact path='/work' component={Work}></Route>
           <Route exact path='/work/:id' component={Project}></Route>
           <Route exact path='/about' component={About}></Route>
