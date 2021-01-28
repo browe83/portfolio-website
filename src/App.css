@@ -21,7 +21,6 @@ h1, h2, h3, figcaption, button, a {
 #navbar {
   display: flex;
   justify-content: space-around;
-  font-size: 15px;
   height: 50px;
   width: 200px;
   align-items: center; 
@@ -31,7 +30,7 @@ h1, h2, h3, figcaption, button, a {
   text-decoration-line: none;
   color: black;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
   padding-top: 7px;
   padding-left: 10px;
   padding-right: 10px;
@@ -41,17 +40,6 @@ h1, h2, h3, figcaption, button, a {
   border: 5px solid  rgba(75, 76, 77, 0.52);
   border-radius: 5px;
 }
-
-
-.shade {
-  position: absolute;
-  width: 40%;
-  height: 100vh;
-  background-image: linear-gradient(to top, rgba(76, 199, 86, 0.52), rgba(9, 101, 240, 0.73));
-  border-right: 5px solid rgba(245, 246, 252, 0.52);
-  color: white;
-}
-
 
 .flex {
   display: flex;

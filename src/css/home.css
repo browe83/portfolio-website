@@ -8,36 +8,41 @@
   background-repeat: no-repeat;
   /* border: 2px solid red; */
 }
-
-#home h2 {
-  margin-top: 40%;
-  margin-left: 80%;
-  color: white;
-}
-
-#welcome {
+.shade {
+  position: absolute;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding-top: 35%;
+  width: 40%;
+  height: 100vh;
+  background-image: linear-gradient(to top, rgba(76, 199, 86, 0.52), rgba(9, 101, 240, 0.73));
+  border-right: 5px solid rgba(245, 246, 252, 0.52);
+  color: white;
+}
+
+.avatar {
+  margin-top: 15%;
+  height: 250px;
+  width: 250px;
+  border:5px solid rgba(245, 246, 252, 0.52);
+  border-radius: 15px;
+}
+
+
+#welcome {
+  text-align: center;
+  margin: 5%;
 }
 
 #welcome h1 {
   font-size: 70px;
-  color: white;
+  margin: 0;
 }
 
 #welcome p {
-  width: 80%;
-  text-align: center;
   font-size: 25px;
+  margin: 0;
+  margin-bottom: 15px;
 }
 
-#home img {
-  height: 70%; 
-  width: auto;
-  border-radius: 100px;
-  box-shadow:  5px 5px 5px 5px white;
-}
 

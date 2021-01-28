@@ -1,13 +1,18 @@
 import React from 'react';
-
+import avatar from '../images/selfie-mtb.jpg';
 function Home (props) {
   
+  const avatarStyles = {
+    backgroundImage: `url(${avatar})`, 
+    backgroundSize: 'cover',
+  }
   return (
     <>
       <div className='flex' id='home'>
-        <h2>Patagonia, Argentina</h2>
       </div>
-      <div className='shade'>
+      <div className='flex shade'>
+        <div className='avatar' style={avatarStyles}>
+        </div>
         <div  id='welcome'>
           <h1>WELCOME</h1>
           <p>
