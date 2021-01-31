@@ -1,4 +1,89 @@
-#side-banner {
+.project-links {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+  /* bottom: 10px; */
+  top: 15px;
+  left: 10px;
+}
+
+.project-banner {
+  position: relative;
+  height: 350px;
+  width: 100%;
+  background-image: 
+    url('../images/laptop2.jpg');
+  background-size: cover;
+  background-position: center;
+  color: black;
+  /* border: 2px dotted blue; */
+}
+
+#overview > * {
+  /* border: 2px dotted red; */
+}
+
+#overview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 30%;
+  /* margin-top: 15px; */
+  margin-left: 2%;
+  /* text-align: center; */
+  /* min-height: 300px; */
+  max-height: 350px;
+  /* border: 2px solid yellow; */
+}
+
+#overview h1 {
+ text-align: center;
+ margin-top: 15px;
+
+}
+#overview p {
+  text-align: left;
+  font-size: 22px;
+}
+
+#overview a {
+  text-align: center;
+}
+
+.images-container {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+.image-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-height: 45vh;
+  width: 48%;
+  min-width: 350px; 
+  margin-top: 15px;
+  border: 3px solid rgba(75, 76, 77, 0.52);
+  border-radius: 5px;
+  overflow: scroll;
+}
+
+.images-container img {
+  max-height: 150%;
+  max-width: 150%;
+  align-self: center;
+  border-radius: 10px;
+}
+
+
+
+/* #side-banner {
   position: relative;
   float: right;
   width: 30%;
@@ -16,10 +101,10 @@
   z-index: 2;
   flex-direction: column;
   align-items: center;
-  /* align-items: center; */
+  align-items: center;
   width: 80%;
   height: 100vh;
-  /* border: 2px dotted red; */
+  border: 2px dotted red;
   background-image: linear-gradient(to top, rgba(76, 199, 86, 0.52), rgba(9, 101, 240, 0.73));
   border-right: 5px solid rgba(245, 246, 252, 0.52);
 }
@@ -28,9 +113,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* border: 2px solid purple; */
+  border: 2px solid purple;
   color: white;
-  /* text-align: center; */
+  text-align: center;
 }
 
 #overview p {
@@ -39,35 +124,10 @@
   margin-right: 20px;
 }
 
-#images-container {
-  /* flex-direction: row; */
-  flex-wrap: wrap;
-  justify-content: space-around;
-  /* align-self: center; */
-  /* border: 2px solid yellow; */
-  margin-top: 10vh;
-}
 
-#image-wrapper {
-  display: flex;
-  /* flex-wrap: wrap; */
-  justify-content: center;
-  max-height: 300px;
-  width: 45%;
-  min-width: 500px; 
-  /* margin-top: 15px; */
-  /* border: 2px dotted black; */
-  /* margin-right: 10px; */
-}
 
-#project img {
-  max-height: 100%;
-  max-width: 100%;
-  align-self: center;
-  border: 2px solid rgba(9, 101, 240, 0.73);
-  border-radius: 10px;
-  /* border: 2px solid red; */
-}
+
+
 
 button {
   margin: 5px;
@@ -78,4 +138,4 @@ button {
   background-color: darkgray;
   cursor: pointer;
   color: white;
-}
+} */

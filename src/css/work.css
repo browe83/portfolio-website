@@ -11,11 +11,11 @@
 
 .work {
   position: absolute;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  display: flex; 
+  /* justify-content: center;  */
+  align-items: top;
   background-image: 
-    url('../images/mural-camera.jpg');
+    url('../images/laptop.jpg');
   background-size: cover;
   background-position: center;
   height: 350px;
@@ -28,11 +28,12 @@
   /* align-items: center; */
   position: relative;
   color: white;
-  background-image: linear-gradient(to top, rgba(76, 199, 86, 0.52), rgba(9, 101, 240, 0.73));
-  width: 45%;
-  height: 200px;
+  /* background-image: linear-gradient(to top, rgba(76, 199, 86, 0.52), rgba(9, 101, 240, 0.73)); */
+  width: 25%;
+  max-height: 350px;
   border-radius: 10px;
   margin: 10px;
+  overflow: auto;
   /* border: 2px dotted black; */
 }
 .projects-overview h1 {
@@ -100,14 +101,15 @@
   align-items: center;
   height: 290px;
   width: 290px;
-  border: 2px solid  rgba(9, 101, 240, 0.73);
+  border: 2px solid rgba(75, 76, 77, 0.52);
+  /* border: 2px solid  rgba(9, 101, 240, 0.73); */
   border-radius: 30px;
   margin-top: 10px;
 }
 
 .project-card:hover {
-  box-shadow: 10px 10px rgba(76, 199, 86, 0.52);
-  transition: box-shadow .1s linear .3s;
+  box-shadow: 10px 10px 10px rgba(75, 76, 77, 0.52);
+  transition: box-shadow ease-in .5s;
 }
 
 .project-img {
@@ -119,7 +121,7 @@
 }
 
 .project-title {
-  border-top: 2px solid rgba(9, 101, 240, 0.73);
+  border-top: 2px solid rgba(75, 76, 77, 0.52);
   width: 100%;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;  

@@ -16,7 +16,7 @@ function Home (props) {
         <div  id='welcome'>
           <h1>WELCOME</h1>
           <p>
-            Thank you for visiting my site.  It was created using ReactJS, 
+            I'm Brandon. Thank you for visiting my site.  I created it using ReactJS, 
             VSCode, GitHub, and my own customized CSS.  
             Click the link below to view the source code.
           </p>

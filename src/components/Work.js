@@ -11,9 +11,9 @@ function Work (props) {
           <h1>My Projects</h1>
           <p>
             Below you'll find a compilation of my projects.  
-            Each was created using vanilla JavaScript, VSCode, and GitHub.
-            At present, the CSS and HTML are outsourced; although, I am currently in the
-            process of refactoring projects using ReactJS and my own CSS and HMTL. 
+            I created each using vanilla JavaScript, VSCode, and GitHub.
+            At present, the CSS and HTML are outsourced. Although, I am currently in the
+            process of refactoring projects using ReactJS and my own custom CSS and HMTL. 
           </p>
         </div>
       </div>
