@@ -20,7 +20,7 @@ function Home (props) {
             VSCode, GitHub, and my own customized CSS.  
             Click the link below to view the source code.
           </p>
-          <a href='https://github.com/browe83/portfolio-website'><button>GitHub Repo</button></a>
+          <a href='https://github.com/browe83/portfolio-website' rel="noopener noreferrer" target='_blank'><button>GitHub Repo</button></a>
         </div>
       </div>
     </>

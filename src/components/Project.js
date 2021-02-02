@@ -16,13 +16,14 @@ function Project (props) {
   }
   return (
     <>
-      <div className='project-links'>
-        <a href={project.live_link}><button>Live Demo</button></a>
-          <a href={project.github_link}><button>GitHub Repo</button></a>
-      </div>
+      
       <div className='project-banner'>
         <div id='overview'>
           <h1>{project.project_name}</h1>
+          <div className='project-links'>
+            <a href={project.live_link} rel="noopener noreferrer" target='_blank'><button>Live Demo</button></a>
+            <a href={project.github_link} rel="noopener noreferrer" target='_blank'><button>GitHub Repo</button></a>
+          </div>
           <p>{project.description}</p>
           {/* <a href={project.live_link}><button>Live Demo</button></a>
           <a href={project.github_link}><button>GitHub Repo</button></a> */}

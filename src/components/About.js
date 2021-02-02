@@ -1,14 +1,19 @@
 import React from 'react';
-import avatar from '../images/selfie-mtb.jpg';
+import headshot from '../images/headshot.jpeg';
+import gmail from '../images/gmail.png';
+import linkedin from '../images/linkedin.png';
+import github from '../images/github.png';
 
 function About (props) {
   
-  const avatarStyles = {
-    marginTop: '0',
-    backgroundImage: `url(${avatar})`, 
+  const headshotStyles = {
+    // marginTop: '0',
+    backgroundImage: `url(${headshot})`, 
     backgroundSize: 'cover',
+    height: 250,
+    width: 250,
     // display: 'inline-block',
-    float: 'left',
+    // float: 'left',
   }
 
   return (
@@ -18,8 +23,8 @@ function About (props) {
       </div>
       <div className='about-container'>
         <div className='about-wrapper'>
-          <div className='avatar' style={avatarStyles}></div>
-          <p>
+          <div className='headshot' styles={headshotStyles}></div>
+          <p className='about-paragraph'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna 
             aliqua. Et tortor consequat id porta nibh. Risus viverra adipiscing
@@ -41,8 +46,18 @@ function About (props) {
             Arcu odio ut sem nulla pharetra diam. Adipiscing elit pellentesque
             ßhabitant morbi tristique senectus et netus et.
           </p>
+          <div className='contacts'>
+            <a href='mailto:rowe.brandon.j@gmail.com' rel="noopener noreferrer" target='_blank'>
+              <img src={gmail} alt='gmail'></img>
+            </a>
+            <a href='https://github.com/browe83' rel="noopener noreferrer" target='_blank'>
+              <img src={github} alt='github'></img>
+            </a>
+            <a href='https://www.linkedin.com/in/brandon-rowe-5bb891205/' rel="noopener noreferrer" target='_blank'>
+              <img src={linkedin} alt='linkedin'></img>
+            </a>
+          </div>
         </div>
-   
       </div>
     </>
   )

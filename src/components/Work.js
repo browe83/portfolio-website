@@ -19,7 +19,7 @@ function Work (props) {
       </div>
     <div className='projects'>
       {projects.map((project, index) => (
-        <a href={`/work/${project.id}`}>
+        <a href={`/work/${project.id}`} key={index}>
           <div className='project-card'>
             <div className='project-img' style={{backgroundImage: `url(${project.images[0]})`, backgroundSize: 'cover'}}>
             </div>
