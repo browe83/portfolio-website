@@ -6,6 +6,7 @@ function Home (props) {
     backgroundImage: `url(${avatar})`, 
     backgroundSize: 'cover',
   }
+  
   return (
     <>
       <div className='flex' id='home'>
@@ -16,11 +17,8 @@ function Home (props) {
         <div  id='welcome'>
           <h1>WELCOME</h1>
           <p>
-            I'm Brandon. Thank you for visiting my site.  I created it using ReactJS, 
-            VSCode, GitHub, and my own customized CSS.  
-            Click the link below to view the source code.
+            I'm Brandon Rowe. Thank you for visiting my site.  I'm a career-transitioning teacher, seeking a junior JavaScript development position.
           </p>
-          <a href='https://github.com/browe83/portfolio-website' rel="noopener noreferrer" target='_blank'><button>GitHub Repo</button></a>
         </div>
       </div>
     </>

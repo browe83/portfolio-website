@@ -1,5 +1,4 @@
 .map-container {
-  /* position: relative; */
   width: 100%;
   position: absolute;
 }
@@ -15,27 +14,20 @@
 }
 
 .about-container {
-  max-width: 100%;
+  width: 100%;
   height: auto;
-  /* border: 2px dotted blue; */
   display: flex;
-  position: absolute;
+  position: relative;
   justify-content: center;
   margin-top: 65px;
-}
-
-.about-wrapper > * {
-  /* border: 4px dotted purple; */
 }
 
 .about-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
-  max-width: 50%;
+  width: 60%;
   height: auto;
-  /* border: 3px dotted red; */
 }
 
 .headshot {
@@ -44,38 +36,47 @@
   width: 250px;
   background-image: url('../images/headshot.jpeg');
   background-size: cover;
-  /* position: absolute; */
-  /* border: 15px; */
-  /* float: left; */
   border: 5px solid lightgrey;
   margin-right: 25px;
 
   border-radius: 15px;
 }
 
-.about-paragraph {
-  /* position: absolute; */
-  /* left: 255px; */
-  /* padding-left: 15px; */
+.about-1 {
+  padding-top: 2%;
 }
-
 
 .about-wrapper p {
   font-size: 25px;
-  /* margin-left: 15px; */
-  /* padding-left: 15px; */
 }
 
 .contacts a {
-  /* border: 2px dotted blue; */
   margin: 8px;
 }
 
 .contacts {
-  /* display: flex; */
-  /* justify-content: space-around; */
-  /* border: 2px dotted red; */
-  width: 35%;
+  width: 50%;
   text-align: center;
   margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+  .map {
+    height: 250px;
+  }
+
+  .about-wrapper{
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .headshot {
+    height: 150px;
+    width: 150px;
+  }
+  
+  .contacts {
+    width: 100%;
+  }
 }

@@ -1,7 +1,5 @@
 import React from 'react';
-// import { projects } from '../../src/data.json';
 import { projects } from '../data';
-// import '../css/work.css';
 
 function Work (props) {
   return (
@@ -17,19 +15,19 @@ function Work (props) {
           </p>
         </div>
       </div>
-    <div className='projects'>
-      {projects.map((project, index) => (
-        <a href={`/work/${project.id}`} key={index}>
-          <div className='project-card'>
-            <div className='project-img' style={{backgroundImage: `url(${project.images[0]})`, backgroundSize: 'cover'}}>
+      <div className='projects'>
+        {projects.map((project, index) => (
+          <a href={`/project/${project.id}`} key={index}>
+            <div className='project-card'>
+              <div className='project-img' style={{backgroundImage: `url(${project.images[0]})`, backgroundSize: 'cover'}}>
+              </div>
+              <div className='project-title'>
+                <h2>{project.project_name}</h2>
+              </div>
             </div>
-            <div className='project-title'>
-              <h2>{project.project_name}</h2>
-            </div>
-          </div>
-        </a>
-      ))}
-    </div>
+          </a>
+        ))}
+      </div>
     </>
   )
 

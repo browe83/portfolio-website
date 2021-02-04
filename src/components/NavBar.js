@@ -10,7 +10,7 @@ function NavBar(props) {
       <div id='navbar'>
         <Link to='/' className={'link ' + (pathname === '/' ? 'active' : '')} >HOME</Link>
         <Link to='/about' className={'link ' + (pathname === '/about' ? 'active' : '')} >ABOUT</Link>
-        <Link to='/work' className={'link ' + (pathname === '/work' ? 'active' : '')} >WORK</Link>
+        <Link to='/projects' className={'link ' + (pathname === '/work' ? 'active' : '')} >PROJECTS</Link>
       </div>
     </div>
   )

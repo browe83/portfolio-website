@@ -19,7 +19,7 @@ export const projects = [
       project_name: "Random Quotes Generator",
       description: "This project creates an app that displays famous random quotes that are updated every 10 seconds or with the click of a mouse.",
       technologies: ["VSCode", "JavaScript"],
-      live_link: "https://browe83.github.io/Techdegree-Project-1/a_random_quote_generator-v1/index.html",
+      live_link: "https://browe83.github.io/A-Random-Quote-Generator/a_random_quote_generator-v1/index.html",
       github_link: "https://github.com/browe83/Techdegree-Project-1",
       images: [
         proj1Img1,
