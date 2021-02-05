@@ -23,7 +23,6 @@ function Project (props) {
         {  project.images.length === 3 ?
           <>
               <div className='image-wrapper'>
-                <div className='image'></div>
                 <img src={project.images[1]} alt='project pic' ></img>
               </div>
               <div className='image-wrapper'>

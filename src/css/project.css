@@ -15,7 +15,9 @@
   align-items: center;
   width: 33%;
   margin-left: 2%;
-  max-height: 350px;
+  height: 100%;
+  overflow: auto;
+  /* border: 2px dotted green; */
 }
 
 #overview h1 {
@@ -33,7 +35,7 @@
 }
 
 .images-container {
-  height: 50vh;
+  height: auto;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -47,20 +49,18 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  overflow: auto;
   max-height: 50vh;
   width: 48%;
   min-width: 350px; 
   margin-top: 15px;
-  border: 3px solid rgba(75, 76, 77, 0.52);
+  border: 3px solid darkgray;
   border-radius: 5px;
-  overflow: scroll;
 }
 
 .images-container img {
   height: auto;
-  width: auto;
-  align-self: center;
-  border-radius: 10px;
+  width: 100%;
 }
 
 @media only screen and (max-width: 800px) {
@@ -82,63 +82,6 @@
   height: 100%;
   width: 100%;
   align-self: center;
-  border-radius: 10px;
 }
 }
 
-/* #side-banner {
-  position: relative;
-  float: right;
-  width: 30%;
-  z-index: 2;
-  background-image: 
-    url('../images/santiago-tower.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  z-index: 1;
-}
-
-#project {
-  position: absolute;
-  z-index: 2;
-  flex-direction: column;
-  align-items: center;
-  align-items: center;
-  width: 80%;
-  height: 100vh;
-  border: 2px dotted red;
-  background-image: linear-gradient(to top, rgba(76, 199, 86, 0.52), rgba(9, 101, 240, 0.73));
-  border-right: 5px solid rgba(245, 246, 252, 0.52);
-}
-
-#overview {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: 2px solid purple;
-  color: white;
-  text-align: center;
-}
-
-#overview p {
-  font-size: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-
-
-
-
-
-button {
-  margin: 5px;
-  text-align: center;
-  width: 200px;
-  border-radius: 5px;
-  font-size: 20px;
-  background-color: darkgray;
-  cursor: pointer;
-  color: white;
-} */
