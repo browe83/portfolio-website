@@ -13,7 +13,7 @@ function Project (props) {
         <div id='overview'>
           <h1>{project.project_name}</h1>
           <div className='project-links'>
-            <a href={project.live_link} rel="noopener noreferrer" target='_blank'><button>Live Demo</button></a>
+            {project.live_link && <a href={project.live_link} rel="noopener noreferrer" target='_blank'><button>Live Demo</button></a>}
             <a href={project.github_link} rel="noopener noreferrer" target='_blank'><button>GitHub Repo</button></a>
           </div>
           <p>{project.description}</p>
