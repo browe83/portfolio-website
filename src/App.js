@@ -25,10 +25,10 @@ function App () {
         <Router>
           <NavBar />
             <Switch>
-              <Route exact path='/' component={Home}></Route>
-              <Route exact path='/projects' component={Work}></Route>
-              <Route exact path='/project/:id' component={Project}></Route>
-              <Route exact path='/about' component={About}></Route>
+              <Route exact path={process.env.PUBLIC_URL + '/'} component={Home}></Route>
+              <Route exact path={process.env.PUBLIC_URL + '/projects'} component={Work}></Route>
+              <Route exact path={process.env.PUBLIC_URL + '/project/:id'} component={Project}></Route>
+              <Route exact path={process.env.PUBLIC_URL + '/about'} component={About}></Route>
               <Route component={NotFound}></Route>
             </Switch>
         </Router>
