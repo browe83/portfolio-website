@@ -7,9 +7,8 @@ function Footer (props) {
       <p>
         I created this site using ReactJS, 
         VSCode, GitHub, and my own customized HTML and CSS.  
-        Click the link to view the source code.
+        Click <a href='https://github.com/browe83/portfolio-website' rel="noopener noreferrer" target='_blank'>here</a> to view the source code.
       </p>
-      <a href='https://github.com/browe83/portfolio-website' rel="noopener noreferrer" target='_blank'><button>GitHub Repo</button></a>
     </div>
   )
 }

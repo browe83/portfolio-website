@@ -42,7 +42,7 @@
   border-radius: 15px;
 }
 
-.about-1 {
+.about {
   padding-top: 2%;
 }
 
@@ -69,6 +69,8 @@
     width: 100%;
     margin-left: 5px;
     margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 5px;
   }
 
   .headshot {

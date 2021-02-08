@@ -8,9 +8,8 @@ function Work (props) {
         <div className='projects-overview'>
           <h1>My Projects</h1>
           <p>
-            The projects below are from my Treehouse Techdegree.  
+            The projects below are from my Full Stack JavaScript Treehouse Techdegree.  
             Click <a href='https://www.credential.net/d9882913-52a6-4f15-8485-c5387a836a81#gs.sptjqe'>here</a> to view my certification.
-            In addition to JavaScript, I created each project using VSCode and Github.  
           </p>
         </div>
       </div>
