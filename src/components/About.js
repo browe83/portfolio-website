@@ -2,6 +2,7 @@ import React from 'react';
 import gmail from '../images/gmail.png';
 import linkedin from '../images/linkedin.png';
 import github from '../images/github.png';
+import file from "../images/file.png";
 
 function About (props) {
   
@@ -44,6 +45,9 @@ function About (props) {
             </p>
             </div>
             <div className='contacts'>
+              <a href='https://docs.google.com/document/d/1yZk4r3cbv-TulTxqQi7hZ3eG2nXQ-UaiQW0ww09aM1c/edit?usp=sharing' rel="noopener noreferrer" target='_blank'>
+                <img src={file} alt='resume'></img>
+              </a>
               <a href='mailto:rowe.brandon.j@gmail.com' rel="noopener noreferrer" target='_blank'>
                 <img src={gmail} alt='gmail'></img>
               </a>
