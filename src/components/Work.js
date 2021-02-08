@@ -1,5 +1,6 @@
 import React from 'react';
 import { projects } from '../data';
+import { Link } from 'react-router-dom';
 import { withRouter } from "react-router";
 
 function Work (props) {
@@ -16,7 +17,7 @@ function Work (props) {
       </div>
       <div className='projects'>
         {projects.map((project, index) => (
-          <a href={`/project/${project.id}`} key={index}>
+          <Link to={`/project/${project.id}`} key={index}>
             <div className='project-card'>
               <div className='project-img' style={{backgroundImage: `url(${project.images[0]})`, backgroundSize: 'cover'}}>
               </div>
@@ -24,7 +25,7 @@ function Work (props) {
                 <h2>{project.project_name}</h2>
               </div>
             </div>
-          </a>
+          </Link>
         ))}
       </div>
     </>
