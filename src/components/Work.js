@@ -17,7 +17,7 @@ function Work (props) {
       </div>
       <div className='projects'>
         {projects.map((project, index) => (
-            <Link to={`${process.env.PUBLIC_URL}/project/${project.id}`} key={index}>
+            <Link to={`/project/${project.id}`} key={index}>
             <div className='project-card'>
               <div className='project-img' style={{backgroundImage: `url(${project.images[0]})`, backgroundSize: 'cover'}}>
               </div>
