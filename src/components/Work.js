@@ -1,5 +1,6 @@
 import React from 'react';
 import { projects } from '../data';
+import { withRouter } from "react-router";
 
 function Work (props) {
   return (
@@ -33,6 +34,6 @@ function Work (props) {
 }
 
 
-export default Work;
+export default withRouter(Work);
 
 
