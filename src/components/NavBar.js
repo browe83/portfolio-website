@@ -4,7 +4,7 @@ import { withRouter } from "react-router";
 
 function NavBar(props) {
   const { pathname } = props.location;
-  
+
   return (
     <div id='navContainer'>
       <div id='navbar'>

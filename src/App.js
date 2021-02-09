@@ -20,7 +20,6 @@ import Footer from './components/Footer';
 
 function App () {
 
-  console.log('env', process.env.PUBLIC_URL);
   return (
     <div className='page-container'>
       <div className='content-wrap'>

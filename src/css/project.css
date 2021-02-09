@@ -9,6 +9,12 @@
   color: black;
 }
 
+.back  {
+  margin-left: 2%;
+  display: inline-block;
+  margin-top: 2%;
+}
+
 #overview {
   display: flex;
   flex-direction: column;
@@ -17,7 +23,6 @@
   margin-left: 2%;
   height: 100%;
   overflow: auto;
-  /* border: 2px dotted green; */
 }
 
 #overview h1 {
@@ -63,10 +68,23 @@
   width: 100%;
 }
 
+.arrows {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.arrows {
+  margin-bottom: 2%;
+}
+
 @media only screen and (max-width: 800px) {
   .project-banner {
     background-image: none;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   #overview {
@@ -74,8 +92,8 @@
   }
 
   #overview p {
-    margin-right: 15px;
-    margin-left: 15px;
+    margin-right: 2%;
+    margin-left: 2%;
     overflow: scroll;
   }
   .images-container img {

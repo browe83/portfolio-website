@@ -45,7 +45,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  /* width: 100%; */
   width: auto;
   padding-bottom: 3%;
   padding-top: 2%;

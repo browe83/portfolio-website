@@ -1,15 +1,17 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import { projects } from '../data';
+
 
 function Project (props) {
   
   const { id } = useParams();
   const project = projects[id];
- 
+
   return (
     <>
       <div className='project-banner'>
+        <Link className='back' to='/projects'>BACK TO PROJECTS</Link>
         <div id='overview'>
           <h1>{project.project_name}</h1>
           <div className='project-links'>
