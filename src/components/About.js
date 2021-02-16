@@ -38,14 +38,14 @@ function About (props) {
               technology.  Web development in particular stood out to me, and I began a deep dive into
               JavaScript and its related libraries and frameworks.  I am most familiar with ReactJS,
               NodeJS and Express.js.  I am now excited to continue to develop, learn and contribute as a
-              part of a team of like-minded developers.
+              part of a like-minded team.
             </p>
             <p>
               For more information or to contact me, check out one of the links below.
             </p>
             </div>
             <div className='contacts'>
-              <a href='https://docs.google.com/document/d/1yZk4r3cbv-TulTxqQi7hZ3eG2nXQ-UaiQW0ww09aM1c/edit?usp=sharing' rel="noopener noreferrer" target='_blank'>
+              <a href='https://docs.google.com/document/d/1AK2tAFPWtAJry2b9NhNDEeQlUnFH9e9CxnDikmdHFh4/edit?usp=sharing' rel="noopener noreferrer" target='_blank'>
                 <img src={file} alt='resume'></img>
               </a>
               <a href='mailto:rowe.brandon.j@gmail.com' rel="noopener noreferrer" target='_blank'>

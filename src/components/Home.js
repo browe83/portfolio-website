@@ -18,8 +18,7 @@ function Home (props) {
           <h1>WELCOME</h1>
           <p>
             I'm Brandon Rowe. Thank you for visiting my site.  
-            I'm a career-transitioning teacher, seeking a junior JavaScript development position.
-            I am most skilled with ReactJS, NodeJS, Express.js, Sequelize ORM, and SQLite.
+            I'm a career-transitioning educator seeking a junior web development position.
           </p>
         </div>
       </div>
