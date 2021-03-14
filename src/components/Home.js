@@ -18,7 +18,7 @@ function Home (props) {
           <h1>WELCOME</h1>
           <p>
             I'm Brandon Rowe. Thank you for visiting my site.  
-            I'm a career-transitioning educator seeking a junior web development position.
+            I'm an educator and JavaScript web developer.
           </p>
         </div>
       </div>
